@@ -179,7 +179,7 @@ body {
 .page-section {
     padding: 7.4rem 0 5rem;
     min-height: 100vh;
-    background: url("/assets/img/bg-2.jpg") no-repeat;
+    background: url("/../../assets/img/bg-2.jpg") no-repeat;
     background-position: top center;
     background-size: cover;
     position: relative;
@@ -265,8 +265,19 @@ body {
 }
 
 .top {
-    background: url("/../assets/img/bg.jpg") no-repeat;
+    background: url("/../../assets/img/bg.jpg") no-repeat;
+    background-position: top center;
     background-size: cover;
+}
+
+.top__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 /* Slider */
