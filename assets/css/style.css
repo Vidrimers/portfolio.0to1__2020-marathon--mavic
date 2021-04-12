@@ -179,7 +179,7 @@ body {
 .page-section {
     padding: 7.4rem 0 5rem;
     min-height: 100vh;
-    background: url("/../../assets/img/bg-2.jpg") no-repeat;
+    background: url("/../assets/img/bg-2.jpg") no-repeat;
     background-position: top center;
     background-size: cover;
     position: relative;
