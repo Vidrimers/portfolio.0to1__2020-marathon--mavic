@@ -265,7 +265,7 @@ body {
 }
 
 .top {
-    background: url("/assets/img/bg.jpg") no-repeat;
+    background: url("/../assets/img/bg.jpg") no-repeat;
     background-size: cover;
 }
 
