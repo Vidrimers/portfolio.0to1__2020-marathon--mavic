@@ -57,6 +57,7 @@ console.log("this is modal component");
     Slick = (function() {
 
         var instanceUid = 0;
+<<<<<<< HEAD
 
         function Slick(element, settings) {
 
@@ -818,6 +819,8 @@ console.log("this is modal component");
         if (_.options.accessibility === true) {
             _.$list.off('keydown.slick', _.keyHandler);
         }
+=======
+>>>>>>> 85ae44f4e0f6bd840221a08ccaf58d4686fe8797
 
         if (_.options.focusOnSelect === true) {
             $(_.$slideTrack).children().off('click.slick', _.selectHandler);
@@ -4841,6 +4844,7 @@ console.log("this is modal component");
             return el ? new Section(el) : null;
         }
 
+<<<<<<< HEAD
         function nullOrSlide(el){
             return el ? new Slide(el) : null;
         }
@@ -7275,6 +7279,8 @@ if(window.jQuery && window.fullpage){
     })(window.jQuery, window.fullpage);
 }
 
+=======
+>>>>>>> 85ae44f4e0f6bd840221a08ccaf58d4686fe8797
 $(function () {
   /*
        _ _      _       _
@@ -14459,6 +14465,7 @@ $(function () {
           Array.prototype.filter.call(el, filterFn);
       }
   
+<<<<<<< HEAD
       //https://jsfiddle.net/w1rktecz/
       function untilAll(item, selector, fn){
           var sibling = item[fn];
@@ -14479,6 +14486,20 @@ $(function () {
       function nextAll(item, selector){
           return untilAll(item, selector, 'nextElementSibling');
       }
+=======
+  let products = $(".products__slider");
+  
+  products.slick({
+    prevArrow: '.slider-btn__left',
+    nextArrow: '.slider-btn__right',
+    // normal options...
+    // arrows: false,
+    // dots: false,
+    infinite: false,
+    speed: 800,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+>>>>>>> 85ae44f4e0f6bd840221a08ccaf58d4686fe8797
   
       /**
       * Gets all previous elements matching the passed selector.
@@ -14564,6 +14585,7 @@ $(function () {
       (function ($, fullpage) {
           'use strict';
   
+<<<<<<< HEAD
           // No jQuery No Go
           if (!$ || !fullpage) {
               window.fp_utils.showError('error', 'jQuery is required to use the jQuery fullpage adapter!');
@@ -14585,5 +14607,16 @@ $(function () {
     autoScrolling: true,
     scrollHorizontally: true,
     sectionSelector: '.page-section',
+=======
+    //   }]
+  });
+  console.log("Accordion");
+  
+  let qTitle = $(".questions__item-title");
+  
+  $(qTitle).on('click', function () {
+    $('.questions__item').removeClass('questions__item--active');
+    $(this).parent().addClass('questions__item--active');
+>>>>>>> 85ae44f4e0f6bd840221a08ccaf58d4686fe8797
   });
 });
